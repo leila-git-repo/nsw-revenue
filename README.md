@@ -36,15 +36,18 @@ The code coverage report is written to the directory target/site/jacoco/index.ht
 
 ## How to build the project
 
-via docker :
+# via docker :
   run ./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=nsw-revenue-api:latest in terminal
-without docker :
+
+# without docker :
   run mvn clean install in command line 
 
 ## How to run the project
-via docker :
+
+# via docker :
  run docker run -p 8080:8080 -t nsw-revenue-api:latest in terminal
-without docker :
+
+# without docker :
  java -jar <Mave_repo_path>/repository/nsw/revenue/coding/challenge/1.0/challenge-1.0.jar nsw.revenue.coding.challenge.Application
 
 
